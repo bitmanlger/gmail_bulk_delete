@@ -5,9 +5,11 @@ Gmail Bulk Delete
 
 Bulk delete emails from Gmail using the IMAP protocol. 
 
-If you have too many emails in your inbox, the gmail web client dies if you use their bulk deletion tools. 
+If you have too many emails in your inbox, the Gmail web client dies if you use their bulk selection web UI.
 
-For example, I tried to delete 250,000 emails (don't ask ;) and I had to resort to writing a script. The script allows you to specify matching criteria for which emails to delete.
+For example, I tried to delete 250,000 emails (don't ask ;) and I had to resort to writing this script. The script allows you to specify matching criteria for which emails to delete. I preferred this to regular IMAP apps (Thunderbird, Mail App etc.. as deleting this many emails can take days... These clients are very unwieldy for this volume of email and I had no insight into their progress).
+
+For what it's worth, this method of deleting emails is still unacceptably slow (I got about 5s / msg). I welcome a better approach (please email me).
 
 *You will need some python skills to edit this script. Also, set up a temporary password for your Gmail account (https://support.google.com/mail/answer/1173270?hl=en)*
 
